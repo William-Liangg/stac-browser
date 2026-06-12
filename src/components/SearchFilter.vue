@@ -184,20 +184,6 @@ import CqlLogicalOperator, { CqlNot } from '../models/cql2/operators/logical';
 import { stacRequest } from '../store/utils';
 import { formatKey } from '@radiantearth/stac-fields/helper';
 
-
-function getQueryDefaults() {
-  return {
-    q: [],
-    datetime: null,
-    bbox: null,
-    limit: null,
-    ids: [],
-    collections: [],
-    sortby: null,
-    filters: null
-  };
-}
-
 function getDefaults() {
   return {
     sortOrder: 1,
